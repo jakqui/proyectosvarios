@@ -8,18 +8,20 @@ abstractos (sin implementación) como métodos concretos (con implementación).
 ```java
 abstract class Animal { }
     Animal animal = new Animal(); // ERROR
+```
 
 2.-Métodos abstractos: Define métodos sin cuerpo que las subclases deben 
 implementar obligatoriamente.
 ```java
     abstract void hacerSonido(); // Método sin implementación
-
+```
 3.-Métodos concretos: Puede incluir métodos con lógica compartida entre todas 
 las subclases.
 ```java
 void dormir() {
     System.out.println("El animal duerme.");
 }
+```
     
 4.- Puede tener atributos y constructores: Aunque no puede instanciarse, 
 las subclases pueden usar estos atributos y constructores.
@@ -32,6 +34,7 @@ entre subclases.
 ciertos métodos clave.
 -Reutilizar código: Métodos concretos permiten compartir lógica entre subclases.
 
+```java
 // Clase abstracta
 abstract class Animal {
     // Método abstracto (sin implementación)
@@ -69,3 +72,4 @@ public class Main {
         gato.hacerSonido();  // Salida: El gato maúlla: ¡Miau!
     }
 }
+```
