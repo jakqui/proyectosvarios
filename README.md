@@ -1,6 +1,6 @@
 # proyectos-varios
-# PARA INICIAR CONTENEDOR DE DESARROLLO VSCODE:
-# CTROL + SHIFF + P  -> Dev Containers: REOpen container
+PARA INICIAR CONTENEDOR DE DESARROLLO VSCODE:
+CTROL + SHIFF + P  -> Dev Containers: REOpen container
 
 mvn archetype:generate \
 -DarchetypeGroupId=org.codehaus.mojo.archetypes \
