@@ -5,8 +5,8 @@ abstractos (sin implementación) como métodos concretos (con implementación).
 
 ## **Características de una clase abstracta**
 1.-No se puede instanciar: Solo puede ser extendida por clases derivadas.
-    ```java
-    abstract class Animal { }
+```java
+abstract class Animal { }
     Animal animal = new Animal(); // ERROR
 
 2.-Métodos abstractos: Define métodos sin cuerpo que las subclases deben 
@@ -15,9 +15,9 @@ implementar obligatoriamente.
 
 3.-Métodos concretos: Puede incluir métodos con lógica compartida entre todas 
 las subclases.
-    void dormir() {
-        System.out.println("El animal duerme.");
-    }
+void dormir() {
+    System.out.println("El animal duerme.");
+}
     
 4.- Puede tener atributos y constructores: Aunque no puede instanciarse, 
 las subclases pueden usar estos atributos y constructores.
