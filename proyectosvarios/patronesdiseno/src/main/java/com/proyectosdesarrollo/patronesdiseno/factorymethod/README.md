@@ -1,10 +1,11 @@
-# Una clase abstracta
-Una clase abstracta en Java es una clase que sirve como base o plantilla para 
+# **Clase Abstracta en Java**
+Una **clase abstracta** en Java es una clase que sirve como base o plantilla para 
 otras clases. No puede ser instanciada directamente y puede contener tanto métodos 
 abstractos (sin implementación) como métodos concretos (con implementación). 
 
-Características de una clase abstracta:
+## **Características de una clase abstracta**
 1.-No se puede instanciar: Solo puede ser extendida por clases derivadas.
+    ```java
     abstract class Animal { }
     Animal animal = new Animal(); // ERROR
 
