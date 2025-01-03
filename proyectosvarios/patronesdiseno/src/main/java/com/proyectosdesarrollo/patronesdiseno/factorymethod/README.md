@@ -11,10 +11,12 @@ abstract class Animal { }
 
 2.-Métodos abstractos: Define métodos sin cuerpo que las subclases deben 
 implementar obligatoriamente.
+```java
     abstract void hacerSonido(); // Método sin implementación
 
 3.-Métodos concretos: Puede incluir métodos con lógica compartida entre todas 
 las subclases.
+```java
 void dormir() {
     System.out.println("El animal duerme.");
 }
