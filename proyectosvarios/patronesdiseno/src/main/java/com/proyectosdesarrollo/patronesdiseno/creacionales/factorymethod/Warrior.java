@@ -1,4 +1,4 @@
-package com.proyectosdesarrollo.patronesdiseno.factory;
+package com.proyectosdesarrollo.patronesdiseno.creacionales.factorymethod;
 
 public class Warrior implements Enemy{
 

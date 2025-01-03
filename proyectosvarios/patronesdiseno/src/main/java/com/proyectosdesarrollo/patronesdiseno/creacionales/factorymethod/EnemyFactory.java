@@ -1,4 +1,4 @@
-package com.proyectosdesarrollo.patronesdiseno.factorymethod;
+package com.proyectosdesarrollo.patronesdiseno.creacionales.factorymethod;
 
 public abstract class EnemyFactory {
 

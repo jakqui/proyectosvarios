@@ -4,7 +4,7 @@ otras clases. No puede ser instanciada directamente y puede contener tanto méto
 abstractos (sin implementación) como métodos concretos (con implementación). 
 
 ## **Características de una clase abstracta**
-1.-No se puede instanciar: Solo puede ser extendida por clases derivadas.
+1.-No se puede instanciar: Solo puede ser extendida por **clases derivadas**.
 ```java
 abstract class Animal { }
     Animal animal = new Animal(); // ERROR
@@ -70,6 +70,45 @@ public class Main {
 
         Animal gato = new Gato();
         gato.hacerSonido();  // Salida: El gato maúlla: ¡Miau!
+    }
+}
+```
+
+# **Clase Derivada en Java**
+Una clase derivada es una clase que hereda de otra clase, llamada clase base o superclase, en programación orientada a objetos. Al derivarse, obtiene los atributos y métodos de la clase base, y puede agregar o sobrescribir (modificar) su propio comportamiento.
+
+# Características de una clase derivada:
+1.Hereda propiedades y métodos: Reutiliza el código de la clase base.
+2.Puede extender funcionalidad: Agrega nuevos métodos o atributos específicos.
+3.Sobrescribe métodos: Modifica el comportamiento de métodos existentes en la clase base usando @Override en Java.
+4.Se define con extends en Java.
+
+```java
+// Clase base o superclase
+class Animal {
+    void comer() {
+        System.out.println("Este animal está comiendo.");
+    }
+}
+
+// Clase derivada
+class Perro extends Animal {
+    void ladrar() {
+        System.out.println("El perro está ladrando.");
+    }
+
+    @Override
+    void comer() {
+        System.out.println("El perro está comiendo croquetas.");
+    }
+}
+
+// Uso de la clase derivada
+public class Main {
+    public static void main(String[] args) {
+        Perro perro = new Perro();
+        perro.comer();    // Salida: El perro está comiendo croquetas.
+        perro.ladrar();   // Salida: El perro está ladrando.
     }
 }
 ```

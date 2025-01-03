@@ -1,4 +1,4 @@
-package com.proyectosdesarrollo.patronesdiseno.factorymethod;
+package com.proyectosdesarrollo.patronesdiseno.creacionales.factorymethod;
 
 /*ESTA ES UNA CLASE DERIVADA PORQUE
  * Una clase derivada es una clase que hereda de otra clase, llamada clase base

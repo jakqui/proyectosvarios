@@ -1,4 +1,4 @@
-package com.proyectosdesarrollo.patronesdiseno.factory;
+package com.proyectosdesarrollo.patronesdiseno.creacionales.factory;
 
 public class EnemyFactory {
     public Enemy creaEnemy(String type){
