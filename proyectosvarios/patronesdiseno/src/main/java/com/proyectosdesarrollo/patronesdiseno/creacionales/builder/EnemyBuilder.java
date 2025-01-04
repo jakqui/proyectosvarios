@@ -61,6 +61,5 @@ public class EnemyBuilder {
         enemy.setEndurance(getEndurance());
         enemy.setDamage(getDamage());
         return enemy;
-    }
-    
+    }  
 }

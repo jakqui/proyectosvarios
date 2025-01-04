@@ -1,4 +1,5 @@
 package com.proyectosdesarrollo.patronesdiseno.creacionales.builder;
+
 public class Enemy {
     
     private String name;
@@ -46,8 +47,5 @@ public class Enemy {
     public String toString() {
         return "Enemy [name=" + name + ", type=" + type + ", health=" + health + ", damage=" + damage + ", endurance="
                 + endurance + "]";
-    }
-    
-    
-    
+    }    
 }
