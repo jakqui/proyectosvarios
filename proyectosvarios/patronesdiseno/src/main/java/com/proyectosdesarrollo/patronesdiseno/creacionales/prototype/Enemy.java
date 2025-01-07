@@ -1,8 +1,16 @@
 package com.proyectosdesarrollo.patronesdiseno.creacionales.prototype;
 
-public class Enemy {
-    private int health;
-    private int damage;
+public abstract class Enemy {
+    protected int health;
+    protected int damage;
+
+    //CONSTRUCTOR QUE SE CONTIENE A SÍ MISMO
+    public Enemy(Enemy enemy) {
+        if(enemy != null) {
+            setHealth(enemy.getHealth());
+            setDamage(enemy.getDamage());
+        }
+    }
     
     public Enemy(int health, int damage) {
         this.health = health;
@@ -25,9 +33,6 @@ public class Enemy {
         this.damage = damage;
     }
 
-    @Override
-    public String toString() {
-        return "Enemy [health=" + health + ", damage=" + damage + "]";
-    }
+    public abstract Enemy clone();
     
 }
