@@ -1,3 +1,14 @@
+PATRONES DE DISEÑO, FORTALECIMIENTO DE BUENAS PRACTICAS
+
+
+
+
+
+
+
+
+
+
 # proyectos-varios
 PARA INICIAR CONTENEDOR DE DESARROLLO VSCODE:
 CTROL + SHIFF + P  -> Dev Containers: REOpen container
